@@ -1,0 +1,30 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" version="1.0" xml:lang="en-US">
+
+  <voice name="en-GB-LibbyNeural">
+    <prosody rate="-10%" pitch="+25%">
+    Welcome to our demo on the power of speech synthesis markup language."
+    </prosody>
+  </voice>
+
+  <voice name="en-GB-RyanNeural">
+    <break time="1s" />
+    <prosody rate="-5%" pitch="-10%">
+    This first text has observed a pause of 1 second and is using a prosody rate of -5% and a pitch of -10%.
+    <break time="5s" />
+    We paused for 5 seconds this time.
+    </prosody>
+  </voice>
+
+  <voice name="en-IE-ConnorNeural">
+    <break time="1s" />
+    <prosody rate="-10%" pitch="-5%">
+    This is a demonstration of the use of SSML to control the speech synthesis process with phonemes. We'll use some Shakespeare to illustrate.
+    Thou <phoneme alphabet="sapi" ph="s i eh s t">seest</phoneme> we are not all alone unhappy:
+    <break time="1s" />
+    This wide and universal theatre
+    Presents more woeful pageants than the scene
+    Wherein we play in.
+    </prosody>
+  </voice>
+
+</speak>
